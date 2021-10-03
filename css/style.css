@@ -1,0 +1,44 @@
+header {
+    height: 75px;
+}
+
+#title-container {
+    width: 49%;
+    float: left;
+}
+
+#icon-container {
+    float: right;
+    /* display: inline-block; */
+    width: 49%;
+    text-align: right;
+}
+
+#title,
+#subtitle {
+    margin: 0;
+}
+
+#title {
+    margin-bottom: 0;
+}
+
+#title-container div,
+#icon-container div {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#icon-container div {
+    position: relative;
+    margin-left: 10px;
+    /* top: 10px; */
+}
+
+#hr {
+    background-image: url('/img/hr-img.png');
+    height: 10px;
+    width: 100%;
+    /* position: relative;
+    bottom: 0; */
+}
